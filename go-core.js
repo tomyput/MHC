@@ -26,7 +26,7 @@ function init() {
   var html = `
 <header class="nexmoe-nav">
 	<div class="navSize">
-			<a href="/"><img class="avatar" src="https://i.loli.net/2020/04/24/wCxMZFtiv6aKmQ1.png"/></a>
+			<a href="/"><img class="avatar" src="https://i.loli.net/2020/06/10/5VvXuJI7QxgZMAP.jpg"/></a>
 			<div class="nav_menu">
 				<ul class="menu_ul">
 					<li class="menu_li"><a href="" target="_blank">核心架构</a></li>
