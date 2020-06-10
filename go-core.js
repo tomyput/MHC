@@ -6,13 +6,13 @@
  * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
  */
 // 在head 中 加载 必要静态
-document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe@1.1.3/css/mdui_v2.min.css">');
-document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe@1.1.4/css/nexmoe_v2.min.css">');
-document.write('<script src="//cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe@1.1.3/js/mdui.min.js"></script>');
-document.write('<script src="//cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe@1.1.5/js/flv.min.js"></script>');
-document.write('<script src="//cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe@1.1.5/js/DPlayer.min.js"></script>');
+document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tomyput/MHC/go-core/mdui.css">');
+document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tomyput/MHC/go-core/nexo.css">');
+document.write('<script src="//cdn.jsdelivr.net/gh/tomyput/MHC/go-core/mdui.js"></script>');
+document.write('<script src="//cdn.jsdelivr.net/gh/tomyput/MHC/go-core/flv.js"></script>');
+document.write('<script src="//cdn.jsdelivr.net/gh/tomyput/MHC/go-core/dplayer.js"></script>');
 // markdown支持
-document.write('<script src="//cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe@1.1.3/js/markdown-it.min.js"></script>');
+document.write('<script src="//cdn.jsdelivr.net/gh/tomyput/MHC/go-core/markdown.js"></script>');
 document.write('<style>.mdui-appbar .mdui-toolbar{height:56px;font-size:1pc}.mdui-toolbar>i{opacity:.5}.mdui-toolbar>i{padding:0}.mdui-toolbar>a:hover,a.active,a.mdui-typo-headline{opacity:1}.mdui-container{max-width:980px}.mdui-list-item{transition:none}.mdui-list>.th{background-color:initial}.mdui-list-item>a{width:100%;line-height:3pc}.mdui-list-item{margin:2px 0;padding:0}.mdui-toolbar>a:last-child{opacity:1}@media screen and (max-width:980px){.mdui-list-item .mdui-text-right{display:none}.mdui-container{width:100%!important;margin:0}.mdui-toolbar>.mdui-typo-headline,.mdui-toolbar>a:last-child,.mdui-toolbar>i:first-child{display:block}}</style>');
 // add custome theme and darkmode
 if (UI.dark_mode) {
